@@ -1,4 +1,4 @@
-package classes;
+package parkingGarage;
 
 public class ParkingGarageTest {
 	public static void main(String[] args) {

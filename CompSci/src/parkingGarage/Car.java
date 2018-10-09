@@ -1,4 +1,4 @@
-package classes;
+package parkingGarage;
 
 public class Car {
 
