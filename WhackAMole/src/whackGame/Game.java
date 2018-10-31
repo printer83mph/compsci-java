@@ -71,21 +71,21 @@ public class Game extends JFrame {
 		titleLbl.setBounds(0, 0, 602, 47);
 		contentPane.add(titleLbl);
 		
-		JLabel scoreLbl = new JLabel("Score: 0");
+		scoreLbl = new JLabel("Score: 0");
 		scoreLbl.setHorizontalAlignment(SwingConstants.TRAILING);
 		scoreLbl.setFont(new Font("Cambria", Font.BOLD, 14));
 		scoreLbl.setForeground(new Color(135, 206, 250));
 		scoreLbl.setBounds(423, 54, 144, 33);
 		contentPane.add(scoreLbl);
 		
-		JLabel timeLeftLbl = new JLabel("30");
+		timeLeftLbl = new JLabel("30");
 		timeLeftLbl.setHorizontalAlignment(SwingConstants.CENTER);
 		timeLeftLbl.setFont(new Font("Cambria Math", Font.BOLD, 24));
 		timeLeftLbl.setForeground(new Color(240, 128, 128));
 		timeLeftLbl.setBounds(232, 54, 144, 33);
 		contentPane.add(timeLeftLbl);
 		
-		JLabel highScoreLbl = new JLabel("Highscore: 0");
+		highScoreLbl = new JLabel("Highscore: 0");
 		highScoreLbl.setHorizontalAlignment(SwingConstants.TRAILING);
 		highScoreLbl.setFont(new Font("Cambria", Font.BOLD, 14));
 		highScoreLbl.setForeground(new Color(255, 255, 0));
