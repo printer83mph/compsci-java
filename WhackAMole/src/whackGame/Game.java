@@ -6,6 +6,7 @@ import java.awt.Image;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 import java.util.Random;
 
 import javax.swing.ImageIcon;
@@ -18,9 +19,9 @@ import javax.swing.SwingConstants;
 import javax.swing.Timer;
 import javax.swing.border.EmptyBorder;
 
-import javafx.scene.input.MouseEvent;
-
 public class Game extends JFrame {
+	
+	private static final long serialVersionUID = 1L;
 
 	private JPanel panel;
 	private JLabel scoreLbl;

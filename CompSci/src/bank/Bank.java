@@ -1,3 +1,5 @@
+// THIS IS ALL WRONG. KEEP GETTERS AND SETTERS AS PUBLIC THINGS IN GLOBAL SCOPE
+
 package bank;
 
 import java.util.ArrayList;
